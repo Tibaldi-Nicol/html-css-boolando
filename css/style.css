@@ -14,7 +14,19 @@ header{
 
     background-color: orange;
     padding: 10px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
 
+}
+
+main{
+    padding: 150 0px;
+}
+
+footer{
+    background-color: black;
 }
 
 /*layout*/
@@ -30,6 +42,10 @@ header{
 .col-33{
     width: 33%;
   
+}
+
+.col-50{
+    width: 50%;
 }
 
 .content-header{
